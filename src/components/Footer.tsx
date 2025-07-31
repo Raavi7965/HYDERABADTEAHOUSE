@@ -16,12 +16,16 @@ const Footer = () => {
               Bringing you the finest selection of premium teas from across India, crafted with tradition and served with love.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-tea-brown">
-                <Facebook className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-tea-brown">
-                <Instagram className="h-5 w-5" />
-              </Button>
+              <a href="https://www.facebook.com/HyderabadTeaHouse/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-tea-brown">
+                  <Facebook className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="https://www.instagram.com/hyderabadteahouse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-tea-brown">
+                  <Instagram className="h-5 w-5" />
+                </Button>
+              </a>
               <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-tea-brown">
                 <Twitter className="h-5 w-5" />
               </Button>
@@ -59,17 +63,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-tea-gold mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Tea Street, Old City<br />
-                  Hyderabad, Telangana 500001
+                  Moosapet Rd, Bharat Nagar, Moosapet,<br />
+                  Hyderabad, Telangana 500018
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-tea-gold flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+91 98765 43210</span>
+                <span className="text-gray-300 text-sm">+91 9393837358</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-tea-gold flex-shrink-0" />
-                <span className="text-gray-300 text-sm">hello@hyderabadteahouse.com</span>
+                <span className="text-gray-300 text-sm">hyderabadteahouse@gmail.com</span>
               </div>
             </div>
           </div>
@@ -77,7 +81,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; 2025 Hyderabad Tea House. All rights reserved. | Made with ❤️ for tea lovers
+            &copy; 2025 Hyderabad Tea House. All rights reserved. 
           </p>
         </div>
       </div>

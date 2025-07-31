@@ -81,7 +81,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; 2025 Hyderabad Tea House. All rights reserved. 
+            &copy; 2025 NS CONSUMER PRODUCTS PRIVATE LIMITED. All rights reserved. 
           </p>
         </div>
       </div>

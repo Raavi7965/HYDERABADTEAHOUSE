@@ -63,7 +63,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-tea-gold mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  7-2-1669, Utopia-B/0606, Casa Paradiso,Sanath Nager,Hyderabad,<br />
+                  7-2-1669, Utopia-B/0606, Casa Paradiso,Sanath Nagar,Hyderabad,<br />
                   Hyderabad, Telangana,India, 500018
                 </span>
               </div>
